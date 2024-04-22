@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(255, 128, 0);
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 60%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.offer1{
+    width: 25%;
+}
+.offer1:hover{
+        border: 2px solid lightcoral;
+        box-shadow: 2px 5px 6px rgb(224, 221, 92);
+}
+
+.offer2{
+    width: 25%;
+}
+.offer2:hover{
+    border: 2px solid lightcoral;
+    box-shadow: 2px 5px 6px rgb(224, 221, 92);
+}
+
+.offer3{
+    width: 25%;
+}
+.offer3:hover{
+    border: 2px solid lightcoral;
+    box-shadow: 2px 5px 6px rgb(224, 221, 92);
+}
+
+.alloffers{
+    position: relative;
+    margin-left: 25%;
+    margin-right: 10%;
+
+}
+
+
+/* carousel  */
+.pix{
+    width: 700px;
+    height: 450px;
+}
+
+.carousel-inner{
+    position: relative;
+    left: 28vw;
+    top: 10vh;
+    max-width: 700px;
+}
+
+.carousel-control-next-icon{
+    position: relative;
+    right: 21vw;
+    top: 7vh;
+}
+
+.carousel-control-prev-icon{
+    position: relative;
+    left: 24vw;
+    top: 7vh;
+}
+
+/* product card  */
+
+.container{
+    position: relative;
+    margin-left: 180px;
+}
+
+img{
+    margin: 2px;
+    padding: 10px;
+    border: 5px;
+}
+
+.card{
+    margin: 3px;
+}
+.card:hover{
+    border: 2px solid lightcoral;
+    box-shadow: 2px 5px 6px rgb(224, 160, 92);
+}
+
+
+/* branches  */
+ /* To show the branches  */
+ .inner{
+    border: 1px yellow;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    background: linear-gradient(rgb(243, 243, 169), white);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inner:hover{
+    color: rgb(233, 162, 31);
+}
+
+.containers{
+    display: flex;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40;
+}
+
+/* footer  */
+#footer{
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin: 20px;
+    padding: 15px; 
+    margin-left: 500px;
+    margin-right: 400px;
+}
+
+#text{
+    margin-left: 500px;
+    
+}
